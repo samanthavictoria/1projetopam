@@ -5,16 +5,52 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
   <meta http-equiv="Content-Security-Policy" content="default-src * data: gap: https://ssl.gstatic.com; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
   <script src="components/loader.js"></script>
-  
   <script src="lib/jquery-3.4.1.min.js"></script>
+  <script src="components/calcular.js"></script>
   
   <link rel="stylesheet" href="components/loader.css">
-   <link rel="stylesheet" href="lib/css/bootstrap.min.css">
-
+  <link rel="stylesheet" href="lib/css/bootstrap.min.css">
   <link rel="stylesheet" href="css/style.css">
 
 </head>
 <body>
-  ola mundo;
+  <div class="container-fluid">
+  <div class="row">
+    <div class="col-7 offset-2">
+      <div class="form-group">
+        <label> Valor 1:</label>
+        <input class="form-control form-control-sm" type="number" neme="um" id="n1"  placeholder="digita alguma coisa ai bro">
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-7 offset-2">
+      <div class="form-group">
+         <label> Valor 2: </label>
+         <input class="form-control form-control-sm" type="number" name="dois" id="n2" placeholder="digita alguma coisa ai bro">
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-6 offset-4">
+      <div class="form-group">
+        <button type="button" class="btn btn-outline-dark" id="calcular">somar</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-7 offset-2">
+      <div class="form-group">
+        <label> Resultado: </label>
+        <input class="form-control form-control-sm" type="number" name="resultado" id="result">
+      </div>
+    </div>
+  </div>
+
+
+  </div>
 </body>
 </html>
